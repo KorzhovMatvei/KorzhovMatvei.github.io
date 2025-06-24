@@ -1,3 +1,3 @@
 #Korzhovmatvei.github.io
-index.html
+#Мой_Сайт/index.html
 style.css
