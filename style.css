@@ -33,3 +33,26 @@ footer {
     text-align: center;
     padding: 1rem;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
+@media (max-width: 600px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+  td {
+    position: relative;
+    padding-left: 50%;
+  }
+}
